@@ -141,6 +141,10 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.0.2
 * v1.0.1
 
+### Cert Manager
+* 1.7.1
+* 1.6.2
+
 ## STIGATRON
 * 0.1.0
 
