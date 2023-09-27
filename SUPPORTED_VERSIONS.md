@@ -13,6 +13,9 @@
 This is a list of the supported products/versions of the Rancher Product Portfolio for each Carbide release.
 
 ### Rancher
+* v2.7.6
+* v2.7.5
+* v2.7.4
 * v2.7.3
 * v2.7.2
 * v2.7.1
@@ -33,14 +36,25 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v2.5.13
 
 ### RKE2
+* v1.27.5+rke2r1
+* v1.27.4+rke2r1
+* v1.27.3+rke2r1
+* v1.27.2+rke2r1
 * v1.27.1+rke2r1
+* v1.26.7+rke2r1
+* v1.26.7+rke2r1
+* v1.26.6+rke2r1
+* v1.26.5+rke2r1  
 * v1.26.4+rke2r1
 * v1.26.3+rke2r1
 * v1.26.2+rke2r1
 * v1.26.1+rke2r1
-* v1.26.1+rke2r1
 * v1.26.0+rke2r2
 * v1.26.0+rke2r1
+* v1.25.13+rke2r1
+* v1.25.12+rke2r1
+* v1.25.11+rke2r1
+* v1.25.10+rke2r1  
 * v1.25.9+rke2r1
 * v1.25.8+rke2r1
 * v1.25.7+rke2r1
@@ -51,6 +65,14 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.25.3+rke2r1
 * v1.25.2+rke2r1
 * v1.25.0+rke2r1
+* v1.24.17+rke2r1
+* v1.24.16+rke2r1
+* v1.24.15+rke2r1
+* v1.24.14+rke2r1
+* v1.24.13+rke2r1
+* v1.24.12+rke2r1
+* v1.24.11+rke2r1
+* v1.24.10+rke2r1
 * v1.24.9+rke2r2
 * v1.24.9+rke2r1
 * v1.24.8+rke2r1
@@ -59,15 +81,15 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.24.4+rke2r1
 * v1.24.3+rke2r1
 * v1.24.2+rke2r1
-* v1.24.10+rke2r1
-* v1.23.9+rke2r1
-* v1.23.8+rke2r1
+* v1.23.17+rke2r1
 * v1.23.16+rke2r1
 * v1.23.15+rke2r1
 * v1.23.14+rke2r1
 * v1.23.13+rke2r1
 * v1.23.12+rke2r1
 * v1.23.10+rke2r1
+* v1.23.9+rke2r1
+* v1.23.8+rke2r1
 * v1.22.17+rke2r1
 * v1.22.16+rke2r1
 * v1.22.15+rke2r2
@@ -76,13 +98,25 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.22.12+rke2r1
 
 ### K3s
+* v1.27.5+k3s1
+* v1.27.4+k3s1
+* v1.27.3+k3s1
+* v1.27.2+k3s1
 * v1.27.1+k3s1
+* v1.26.8+k3s1
+* v1.26.7+k3s1
+* v1.26.6+k3s1
+* v1.26.5+k3s1 
 * v1.26.4+k3s1
 * v1.26.3+k3s1
 * v1.26.2+k3s1
 * v1.26.1+k3s1
 * v1.26.0+k3s2
 * v1.26.0+k3s1
+* v1.25.13+k3s1
+* v1.25.12+k3s1
+* v1.25.11+k3s1
+* v1.25.10+k3s1
 * v1.25.9+k3s1
 * v1.25.8+k3s1
 * v1.25.7+k3s1
@@ -93,6 +127,14 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.25.3+k3s1
 * v1.25.2+k3s1
 * v1.25.0+k3s1
+* v1.24.17+k3s1
+* v1.24.16+k3s1
+* v1.24.15+k3s1
+* v1.24.14+k3s1
+* v1.24.13+k3s1
+* v1.24.12+k3s1
+* v1.24.11+k3s1
+* v1.24.10+k3s1
 * v1.24.9+k3s2
 * v1.24.9+k3s1
 * v1.24.8+k3s1
@@ -102,15 +144,15 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.24.3+k3s1
 * v1.24.2+k3s2
 * v1.24.2+k3s1
-* v1.24.10+k3s1
-* v1.23.9+k3s1
-* v1.23.8+k3s2
+* v1.23.17+k3s1
 * v1.23.16+k3s1
 * v1.23.15+k3s1
 * v1.23.14+k3s1
 * v1.23.13+k3s1
 * v1.23.12+k3s1
 * v1.23.10+k3s1
+* v1.23.9+k3s1
+* v1.23.8+k3s2
 * v1.22.17+k3s1
 * v1.22.16+k3s1
 * v1.22.15+k3s1
@@ -119,10 +161,14 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.22.11+k3s2
 
 ### Kubewarden
-* v1.5.1
+* v1.7.1
+* v1.7.0
+* v1.6.2
+* v1.6.1
+* v1.6.0
 * v1.5.0
-* v1.4.0
-* v1.4.0
+* v1.4.2
+* v1.4.1
 * v1.4.0
 * v1.3.0
 * v1.3.0
@@ -136,7 +182,12 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.0.0
 
 ### CIS Benchmark
+* v4.2.0
+* v4.1.0
+* v4.0.0
 * v3.0.0
+* v2.1.2
+* v2.1.1
 * v2.1.0
 * v2.0.4
 * v2.0.3
@@ -152,6 +203,9 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.0.1
 
 ### Longhorn
+* v1.5.1
+* v1.5.0
+* v1.4.2
 * v1.4.1
 * v1.4.0
 * v1.3.3
@@ -173,10 +227,14 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.0.1
 
 ### Neuvector
-
+* 5.2.1
+* 5.2.0-s1
+* 5.1.3
 * 5.1.2
 * 5.1.1
 * 5.1.0
+* 5.0.7-s4
+* 5.0.6-s2
 * 5.0.5
 * 5.0.4
 * 5.0.3
@@ -196,6 +254,27 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 4.0.0
 
 ### Cert Manager
+* 1.12.4
+* 1.12.3
+* 1.12.2
+* 1.12.1
+* 1.12.0
+* 1.11.5
+* 1.11.3
+* 1.11.2
+* 1.11.1
+* 1.11.0
+* 1.10.2
+* 1.10.1
+* 1.10.0
+* 1.9.2
+* 1.9.1
+* 1.9.0
+* 1.8.2
+* 1.8.1
+* 1.8.0
+* 1.7.3
+* 1.7.2
 * 1.7.1
 * 1.6.2
 
