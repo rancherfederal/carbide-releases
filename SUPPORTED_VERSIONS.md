@@ -13,6 +13,7 @@
 This is a list of the supported products/versions of the Rancher Product Portfolio for each Carbide release.
 
 ### Rancher
+* v2.7.9
 * v2.7.8
 * v2.7.7
 * v2.7.6
@@ -218,6 +219,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 ### Longhorn
 * v1.5.1
 * v1.5.0
+* v1.4.4
 * v1.4.2
 * v1.4.1
 * v1.4.0
@@ -248,6 +250,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 5.1.2
 * 5.1.1
 * 5.1.0
+* 5.0.7-s5
 * 5.0.7-s4
 * 5.0.6-s2
 * 5.0.5
@@ -269,8 +272,10 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 4.0.0
 
 ### Cert Manager
+* 1.13.2
 * 1.13.1
 * 1.13.0
+* 1.12.6
 * 1.12.5
 * 1.12.4
 * 1.12.3
