@@ -39,14 +39,17 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v2.5.13
 
 ### RKE2
+* v1.28.3+rke2r1
 * v1.28.2+rke2r1
 * v1.28.1+rke2r1
+* v1.27.7+rke2r1
 * v1.27.6+rke2r1
 * v1.27.5+rke2r1
 * v1.27.4+rke2r1
 * v1.27.3+rke2r1
 * v1.27.2+rke2r1
 * v1.27.1+rke2r1
+* v1.26.10+rke2r1
 * v1.26.9+rke2r1
 * v1.26.8+rke2r1
 * v1.26.7+rke2r1
@@ -58,6 +61,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.26.1+rke2r1
 * v1.26.0+rke2r2
 * v1.26.0+rke2r1
+* v1.25.15+rke2r1
 * v1.25.14+rke2r1
 * v1.25.13+rke2r1
 * v1.25.12+rke2r1
