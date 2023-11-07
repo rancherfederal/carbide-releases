@@ -2,8 +2,9 @@
 
 ## Release Notes
 
-### STIGATRON (0.1.1)
+### STIGATRON (0.2.3)
 * Fix bug with Cluster Finder with race condition.
+* Added Scheduled Scans.
 
 ### Offline Docs (0.1.0)
 * Add documentation for: Kubernetes, Elemental, Rancher Desktop, Rancher MCM, Opni, Longhorn
