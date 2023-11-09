@@ -2,7 +2,7 @@
 
 ## Release Notes
 
-### STIGATRON (0.2.3)
+### STIGATRON (0.2.0)
 * Fix bug with Cluster Finder with race condition.
 * Added Scheduled Scans.
 
@@ -111,9 +111,11 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.22.12+rke2r1
 
 ### K3s
+* v1.28.3+k3s2
 * v1.28.3+k3s1
 * v1.28.2+k3s1
 * v1.28.1+k3s1
+* v1.27.7+k3s2
 * v1.27.7+k3s1
 * v1.27.6+k3s1
 * v1.27.5+k3s1
@@ -121,6 +123,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.27.3+k3s1
 * v1.27.2+k3s1
 * v1.27.1+k3s1
+* v1.26.10+k3s2
 * v1.26.10+k3s1
 * v1.26.9+k3s1
 * v1.26.8+k3s1
@@ -133,6 +136,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.26.1+k3s1
 * v1.26.0+k3s2
 * v1.26.0+k3s1
+* v1.25.15+k3s2
 * v1.25.15+k3s1
 * v1.25.14+k3s1
 * v1.25.13+k3s1
@@ -311,6 +315,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 1.6.2
 
 ### STIGATRON
+* 0.2.0
 * 0.1.1
 * 0.1.0
 
