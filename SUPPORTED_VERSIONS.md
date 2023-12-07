@@ -14,6 +14,7 @@
 This is a list of the supported products/versions of the Rancher Product Portfolio for each Carbide release.
 
 ### Rancher
+* v2.8.0
 * v2.7.9
 * v2.7.8
 * v2.7.7
@@ -115,10 +116,12 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.22.12+rke2r1
 
 ### K3s
+* v1.28.4+k3s2
 * v1.28.3+k3s2
 * v1.28.3+k3s1
 * v1.28.2+k3s1
 * v1.28.1+k3s1
+* v1.27.8+k3s1
 * v1.27.7+k3s2
 * v1.27.7+k3s1
 * v1.27.6+k3s1
@@ -127,6 +130,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.27.3+k3s1
 * v1.27.2+k3s1
 * v1.27.1+k3s1
+* v1.26.11+k3s1
 * v1.26.10+k3s2
 * v1.26.10+k3s1
 * v1.26.9+k3s1
@@ -324,5 +328,6 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 0.1.0
 
 ### Offline Docs
+* 0.1.2
 * 0.1.1
 * 0.1.0
