@@ -277,6 +277,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.0.1
 
 ### Neuvector
+* 5.2.4-s1
 * 5.2.4
 * 5.2.3
 * 5.2.2-s1
