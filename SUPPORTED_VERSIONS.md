@@ -253,6 +253,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.0.1
 
 ### Longhorn
+* v1.6.0
 * v1.5.1
 * v1.5.0
 * v1.4.4
