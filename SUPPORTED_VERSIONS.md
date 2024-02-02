@@ -282,6 +282,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.0.1
 
 ### Neuvector
+* 5.3.0
 * 5.2.4-s1
 * 5.2.4
 * 5.2.3
@@ -315,6 +316,8 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 4.0.0
 
 ### Cert Manager
+* 1.14.1
+* 1.14.0
 * 1.13.3
 * 1.13.2
 * 1.13.1
