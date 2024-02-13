@@ -25,3 +25,4 @@ rgcrprod.azurecr.us/carbide/carbide-whitelabel:0.1.2
 natsio/nats-box:0.14.1
 nats:2.10.5-alpine
 natsio/nats-server-config-reloader:0.13.0
+rgcrprod.azurecr.us/neuvector/vdb-explorer:latest
