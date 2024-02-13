@@ -6,8 +6,8 @@
 * Fix bug with Cluster Finder with race condition.
 * Added Scheduled Scans.
 
-### Offline Docs (0.1.0)
-* Add documentation for: Kubernetes, Elemental, Rancher Desktop, Rancher MCM, Opni, Longhorn
+### Airgapped-Docs (0.1.3)
+* Add documentation for: Kubernetes, Elemental, Rancher Desktop, Rancher MCM, Longhorn, NeuVector.
 
 ## Supported Versions
 
@@ -367,7 +367,8 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 0.1.1
 * 0.1.0
 
-### Offline Docs
+### Airgapped Docs
+* 0.1.3
 * 0.1.2
 * 0.1.1
 * 0.1.0
