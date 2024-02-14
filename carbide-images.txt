@@ -22,7 +22,7 @@ rgcrprod.azurecr.us/carbide/stigatron-ui:0.2.0
 rgcrprod.azurecr.us/carbide/carbide-whitelabel:0.1.0
 rgcrprod.azurecr.us/carbide/carbide-whitelabel:0.1.1
 rgcrprod.azurecr.us/carbide/carbide-whitelabel:0.1.2
-natsio/nats-box:0.14.1
-nats:2.10.5-alpine
-natsio/nats-server-config-reloader:0.13.0
+index.docker.io/natsio/nats-box:0.14.1
+index.docker.io/nats:2.10.5-alpine
+index.docker.io/natsio/nats-server-config-reloader:0.13.0
 rgcrprod.azurecr.us/neuvector/vdb-explorer:latest
