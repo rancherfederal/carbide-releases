@@ -342,14 +342,17 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 4.0.0
 
 ### Cert Manager
+* 1.14.3
 * 1.14.2
 * 1.14.1
 * 1.14.0
+* 1.13.5
 * 1.13.4
 * 1.13.3
 * 1.13.2
 * 1.13.1
 * 1.13.0
+* 1.12.9
 * 1.12.8
 * 1.12.7
 * 1.12.6
