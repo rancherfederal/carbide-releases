@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbide Releases Atom Feed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #282c34; /* Dark gray */
+            color: #ffffff; /* White text */
+            display: flex;
+            justify-content: center;
+            flex-direction: column; /* Add this */
+            min-height: 100vh;
+        }
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #8c9196;
+            
+        }
+        header img {
+            width: 500px;
+            height: auto;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .post {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+        .post h2 {
+            margin-top: 0;
+        }
+        a {
+        color: #3d98d3; /* Light blue */
+        }
+        a:hover {
+            color: #ffffff; /* Purple */
+        }
+        .content-wrapper {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+        #toc {
+            flex: 1;
+            margin-right: 20px;
+            position: sticky;
+            top: 0;
+            border: 1px solid #878484; /* White border */
+            margin-top: 40px;
+            max-width: 200px;
+        }
+        #toc h4 {
+            margin-top: 0px;
+        }
+        #toc div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        #toc img {
+            margin-left: 10px; /* Increase this value to add more space */
+            width: 20px; /* Adjust as needed */
+            height: 20px; /* Adjust as needed */
+        }
+        #blog-posts {
+            flex: 4;
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://ranchergovernment.com/hubfs/RGS_Carbide_Horizontal%203.png" alt="Rancher Government Carbide">
+    </header>
+
+    <div class="content-wrapper">
+        <div class="container" id="toc">
+            <h4>Table of Contents</h4>
+            <!-- Table of contents will be inserted here -->
+        </div>
+    
+        <div class="container" id="blog-posts">
+            <!-- Blog posts will be inserted here -->
+        </div>
+    </div>
+
+    <script>
+        const corsProxy = "https://corsproxy.io/?";
+        
+        // Array of URLs to fetch Atom feeds from
+        const atomFeeds = [
+            'https://github.com/rancherfederal/carbide-charts/releases.atom',
+            'https://github.com/rancherfederal/hauler/releases.atom',
+        ];
+
+        function addToTOC(title, id, url) {
+            const toc = document.getElementById('toc');
+            const tocEntry = document.createElement('div');
+
+
+            const link = document.createElement('a');
+            link.textContent = title;
+            link.href = '#' + id;
+            link.style.whiteSpace = 'nowrap'; 
+            tocEntry.appendChild(link);
+
+            const subscribeLink = document.createElement('a');
+            subscribeLink.href = url;
+
+            const subscribeImage = document.createElement('img');
+            subscribeImage.src = 'https://www.iconninja.com/files/383/799/691/feed-rss-subscribe-icon.png'; // Replace with the path to your image
+            subscribeImage.alt = 'Subscribe';
+
+            subscribeLink.appendChild(subscribeImage);
+            tocEntry.appendChild(subscribeLink);
+
+            toc.appendChild(tocEntry);
+        }
+
+        const container = document.getElementById('blog-posts');
+
+        // Function to fetch and parse Atom feed
+        async function fetchAndDisplayBlogPosts(url) {
+            try {
+                const response = await fetch(corsProxy + url);
+                const xmlText = await response.text();
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+                const entries = xmlDoc.querySelectorAll('entry');
+
+                // Print feed title
+                const feedTitle = xmlDoc.querySelector('feed > title').textContent;
+                const formatedTitle = feedTitle.replace('Release notes from', '').toUpperCase();
+                const titleElement = document.createElement('h1');
+                titleElement.textContent = formatedTitle;
+                titleElement.id = formatedTitle;  // Add an ID to the title element for linking
+                container.appendChild(titleElement);
+
+                // Add to TOC
+                addToTOC(formatedTitle, formatedTitle, url);
+
+                // Iterate over entries and create blog post elements
+                entries.forEach(entry => {
+                    const title = entry.querySelector('title').textContent;
+                    const updated = new Date(entry.querySelector('updated').textContent).toLocaleDateString();
+                    const content = entry.querySelector('content').textContent;
+
+                    // Create post element
+                    const post = document.createElement('div');
+                    post.classList.add('post');
+                    post.innerHTML = `
+                        <h2>${title}</h2>
+                        <p><strong>Published:</strong> ${updated}</p>
+                        <div>${content}</div>
+                    `;
+
+                    // Append post to container
+                    container.appendChild(post);
+                });
+            } catch (error) {
+                console.error('Error fetching or parsing Atom feed:', error);
+            }
+        }
+
+        // Fetch and display blog posts from each Atom feed URL
+        async function fetchAndDisplayAllFeeds() {
+            for (const feedUrl of atomFeeds) {
+                await fetchAndDisplayBlogPosts(feedUrl);
+            }
+        }
+
+        fetchAndDisplayAllFeeds();
+    </script>
+</body>
+</html>
