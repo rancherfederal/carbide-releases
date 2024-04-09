@@ -134,7 +134,8 @@
         // Function to fetch and parse Atom feed
         async function fetchAndDisplayBlogPosts(url) {
             try {
-                const response = await fetch(corsProxy + url);
+                const cacheBuster = Date.now(); // Get the current timestamp
+                const response = await fetch(`${corsProxy}${url}?_=${cacheBuster}`);
                 const xmlText = await response.text();
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
