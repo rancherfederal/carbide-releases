@@ -324,6 +324,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 5.3.2
 * 5.3.1
 * 5.3.0
+* 5.2.4-s3
 * 5.2.4-s2
 * 5.2.4-s1
 * 5.2.4
