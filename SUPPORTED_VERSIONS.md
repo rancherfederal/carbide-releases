@@ -414,6 +414,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 0.1.0
 
 ### Airgapped Docs
+* 0.1.5
 * 0.1.4
 * 0.1.3
 * 0.1.2
