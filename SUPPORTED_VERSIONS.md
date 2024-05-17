@@ -18,6 +18,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v2.8.2
 * v2.8.1
 * v2.8.0
+* v2.7.13
 * v2.7.12
 * v2.7.11
 * v2.7.10
