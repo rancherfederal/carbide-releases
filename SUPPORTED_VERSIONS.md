@@ -386,6 +386,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 
 ### Cert Manager
 * 1.15.0
+* 1.14.7
 * 1.14.6
 * 1.14.5
 * 1.14.4
@@ -400,6 +401,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 1.13.2
 * 1.13.1
 * 1.13.0
+* 1.12.12
 * 1.12.11
 * 1.12.10
 * 1.12.9
