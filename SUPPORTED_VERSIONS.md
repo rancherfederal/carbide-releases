@@ -57,6 +57,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v2.5.13
 
 ### RKE2
+* v1.31.0-rke2r1
 * v1.30.4-rke2r1
 * v1.30.3-rke2r1
 * v1.30.2-rke2r1
