@@ -300,6 +300,11 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.22.11+k3s2
 
 ### Kubewarden
+* v1.17.1
+* v1.17.0
+* v1.16.0
+* v1.15.1
+* v1.15.0
 * v1.14.0
 * v1.13.0
 * v1.12.0
@@ -432,6 +437,8 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 4.0.0
 
 ### Cert Manager
+* 1.16.1
+* 1.16.0
 * 1.15.3
 * 1.15.2
 * 1.15.1
