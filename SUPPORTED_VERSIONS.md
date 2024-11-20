@@ -315,6 +315,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.22.11+k3s2
 
 ### Kubewarden
+* v1.18.0
 * v1.17.1
 * v1.17.0
 * v1.16.0
@@ -349,6 +350,16 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.0.0
 
 ### CIS Benchmark
+* v7.0.0
+* v6.4.0
+* v6.3.0
+* v6.2.0
+* v6.1.0
+* v6.0.0
+* v5.6.0
+* v5.5.0
+* v5.4.0
+* v5.3.0
 * v5.2.0
 * v5.1.0
 * v5.0.0
