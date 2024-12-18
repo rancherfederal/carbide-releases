@@ -356,6 +356,8 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.0.0
 
 ### CIS Benchmark
+* v7.1.1
+* v7.0.1
 * v7.0.0
 * v6.4.0
 * v6.3.0
