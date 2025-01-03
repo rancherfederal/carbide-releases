@@ -7,7 +7,7 @@
 * Added Scheduled Scans.
 
 ### Airgapped-Docs (0.1.8)
-* Add documentation for: Kubernetes, Elemental, Rancher Desktop, Rancher MCM, Longhorn, NeuVector.
+* Updated all docs
 
 ## Supported Versions
 
