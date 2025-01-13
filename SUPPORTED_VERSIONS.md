@@ -69,6 +69,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v2.5.13
 
 ### RKE2
+* v1.32.0+rke2r1
 * v1.31.3+rke2r1
 * v1.31.2+rke2r1
 * v1.31.1+rke2r1
@@ -197,6 +198,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.22.12+rke2r1
 
 ### K3s
+* v1.32.0+k3s1
 * v1.31.4+k3s1
 * v1.31.3+k3s1
 * v1.31.2+k3s1
@@ -506,6 +508,8 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 1.13.2
 * 1.13.1
 * 1.13.0
+* 1.12.15
+* 1.12.14
 * 1.12.13
 * 1.12.12
 * 1.12.11
