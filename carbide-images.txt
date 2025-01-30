@@ -13,10 +13,12 @@ rgcrprod.azurecr.us/carbide/rancher-desktop-docs:0.1.8
 rgcrprod.azurecr.us/carbide/hauler-docs:0.1.8
 rgcrprod.azurecr.us/carbide/stigatron-hook:0.2.0
 rgcrprod.azurecr.us/carbide/heimdall-operator:0.3.0
+rgcrprod.azurecr.us/carbide/heimdall-operator:0.4.0
 rgcrprod.azurecr.us/carbide/heimdall2:0.1.1
 rgcrprod.azurecr.us/carbide/heimdall-proxy:0.1.1
 rgcrprod.azurecr.us/carbide/heimdall-postgres:13.1
 rgcrprod.azurecr.us/carbide/compliance-operator:0.3.0
+rgcrprod.azurecr.us/carbide/compliance-operator:0.4.0
 rgcrprod.azurecr.us/carbide/rcidf:0.1.2
 rgcrprod.azurecr.us/carbide/stigatron-ui:0.3.0
 rgcrprod.azurecr.us/carbide/stigatron-ui:0.2.0
