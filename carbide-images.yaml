@@ -1,0 +1,44 @@
+apiVersion: content.hauler.cattle.io/v1
+kind: Images
+metadata:
+  name: carbide-images
+  annotations:
+    hauler.dev/key: https://raw.githubusercontent.com/rancherfederal/carbide-releases/refs/heads/main/carbide-key.pub
+    # hauler.dev/platform: <platform>
+    hauler.dev/registry: rgcrprod.azurecr.us
+spec:
+  images:
+    - name: carbide/kubernetes-cncf-docs:0.1.8
+    - name: carbide/rancher-docs:0.1.8
+    - name: carbide/rke2-docs:0.1.8
+    - name: carbide/k3s-docs:0.1.8
+    - name: carbide/neuvector-docs:0.1.8
+    - name: carbide/fleet-docs:0.1.8
+    - name: carbide/longhorn-docs:0.1.8
+    - name: carbide/kubewarden-docs:0.1.8
+    - name: carbide/carbide-docs:0.1.8
+    - name: carbide/elemental-docs:0.1.8
+    - name: carbide/harvester-docs:0.1.8
+    - name: carbide/rancher-desktop-docs:0.1.8
+    - name: carbide/hauler-docs:0.1.8
+    - name: carbide/stigatron-hook:0.2.0
+    - name: carbide/heimdall-operator:0.3.0
+    - name: carbide/heimdall-operator:0.4.0
+    - name: carbide/heimdall2:0.1.1
+    - name: carbide/heimdall-proxy:0.1.1
+    - name: carbide/heimdall-postgres:13.1
+    - name: carbide/compliance-operator:0.3.0
+    - name: carbide/compliance-operator:0.4.0
+    - name: carbide/rcidf:0.1.2
+    - name: carbide/stigatron-ui:0.3.0
+    - name: carbide/stigatron-ui:0.2.0
+    - name: carbide/carbide-whitelabel:0.1.0
+    - name: carbide/carbide-whitelabel:0.1.1
+    - name: carbide/carbide-whitelabel:0.1.2
+    - name: carbide/carbide-whitelabel:0.1.4
+    - name: carbide/carbide-whitelabel:0.1.5
+    - name: carbide/carbide-whitelabel:0.1.6
+    - name: neuvector/vdb-explorer:latest
+    - name: natsio/nats-box:0.14.1
+    - name: library/nats:2.10.5-alpine
+    - name: natsio/nats-server-config-reloader:0.13.0
