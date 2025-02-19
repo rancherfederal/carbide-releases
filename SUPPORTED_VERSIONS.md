@@ -2,9 +2,7 @@
 
 ## Release Notes
 
-### STIGATRON (0.2.0)
-* Fix bug with Cluster Finder with race condition.
-* Added Scheduled Scans.
+### STIGATRON (0.3.0)
 
 ### Airgapped-Docs (0.1.8)
 * Updated all docs
