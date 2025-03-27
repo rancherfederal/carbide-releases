@@ -73,9 +73,11 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v2.5.13
 
 ### RKE2
+* v1.32.3+rke2r1
 * v1.32.2+rke2r1
 * v1.32.1+rke2r1
 * v1.32.0+rke2r1
+* v1.31.7+rke2r1
 * v1.31.6+rke2r1
 * v1.31.5+rke2r1
 * v1.31.4+rke2r1
@@ -83,6 +85,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.31.2+rke2r1
 * v1.31.1+rke2r1
 * v1.31.0+rke2r1
+* v1.30.11+rke2r1
 * v1.30.10+rke2r1
 * v1.30.9+rke2r1
 * v1.30.8+rke2r1
@@ -94,6 +97,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.30.2+rke2r1
 * v1.30.1+rke2r1
 * v1.30.0+rke2r1
+* v1.29.15+rke2r1
 * v1.29.14+rke2r1
 * v1.29.13+rke2r1
 * v1.29.12+rke2r1
@@ -466,6 +470,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.0.1
 
 ### Neuvector
+* 5.4.3
 * 5.4.2
 * 5.4.1
 * 5.4.0
