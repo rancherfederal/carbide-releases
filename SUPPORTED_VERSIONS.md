@@ -10,7 +10,7 @@
 
 ## Supported Versions
 
-This is a list of the supported productsand versions of the Rancher Product Portfolio for Carbide! Please reach out to support@ranchergovernment.com with any questions! Thank you.
+This is a list of the supported products and versions of the Rancher Product Portfolio for Carbide! Please reach out to support@ranchergovernment.com with any questions! Thank you.
 
 ### Rancher
 * v2.11.2
