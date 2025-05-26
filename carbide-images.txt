@@ -17,4 +17,8 @@ rgcrprod.azurecr.us/carbide/carbide-whitelabel:0.1.2
 rgcrprod.azurecr.us/carbide/carbide-whitelabel:0.1.4
 rgcrprod.azurecr.us/carbide/carbide-whitelabel:0.1.5
 rgcrprod.azurecr.us/carbide/carbide-whitelabel:0.1.6
+rgcrprod.azurecr.us/rancher/machine:v0.15.0-rancher126-carbide-1
+rgcrprod.azurecr.us/rancher/rancher:v2.11.2-carbide-1
+rgcrprod.azurecr.us/rancher/rancher-agent:v2.11.2-carbide-1
+rgcrprod.azurecr.us/rancher/machine:v0.15.0-rancher127-carbide-1
 rgcrprod.azurecr.us/neuvector/vdb-explorer:latest

@@ -27,4 +27,44 @@ spec:
     - name: carbide/carbide-whitelabel:0.1.4
     - name: carbide/carbide-whitelabel:0.1.5
     - name: carbide/carbide-whitelabel:0.1.6
+    - name: rgcrprod.azurecr.us/rancher/machine:v0.15.0-rancher126-carbide-1
+    - name: rgcrprod.azurecr.us/rancher/rancher:v2.11.2-carbide-1
+    - name: rgcrprod.azurecr.us/rancher/rancher-agent:v2.11.2-carbide-1
+    - name: rgcrprod.azurecr.us/rancher/machine:v0.15.0-rancher127-carbide-1
     - name: neuvector/vdb-explorer:latest
+---
+apiVersion: content.hauler.cattle.io/v1
+kind: Charts
+metadata:
+  name: carbide-charts
+  annotations:
+     # hauler.dev/override-namespace: <namespace>
+spec:
+  charts:
+    - name: rancher
+      repoURL: https://rancherfederal.github.io/carbide-charts
+      version: 2.11.2
+    - name: airgapped-docs
+      repoURL: https://rancherfederal.github.io/carbide-charts
+      version: 0.1.54
+    - name: stigatron
+      repoURL: https://rancherfederal.github.io/carbide-charts
+      version: 0.4.1
+    - name: stigatron-ui
+      repoURL: https://rancherfederal.github.io/carbide-charts
+      version: 0.3.0
+---
+apiVersion: content.hauler.cattle.io/v1
+kind: Charts
+metadata:
+  name: carbide-dependency-charts
+  annotations:
+     # hauler.dev/override-namespace: <namespace>
+spec:
+  charts:
+    - name: heimdall2
+      repoURL: https://rancherfederal.github.io/carbide-charts
+      version: 0.1.41
+    - name: nats
+      repoURL: https://nats-io.github.io/k8s/helm/charts
+      version: 1.1.5
