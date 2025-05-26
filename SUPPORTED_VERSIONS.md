@@ -10,7 +10,7 @@
 
 ## Supported Versions
 
-This is a list of the supported products/versions of the Rancher Product Portfolio for each Carbide release.
+This is a list of the supported productsand versions of the Rancher Product Portfolio for Carbide! Please reach out to support@ranchergovernment.com with any questions! Thank you.
 
 ### Rancher
 * v2.11.2
@@ -379,6 +379,30 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.22.13+k3s1
 * v1.22.12+k3s1
 * v1.22.11+k3s2
+
+### Harvester
+* v1.4.3
+* v1.4.3-amd64-govt.1
+* v1.4.2
+* v1.4.2-amd64-govt.3
+* v1.4.2-amd64-govt.2
+* v1.4.2-amd64-govt.1
+* v1.4.1
+* v1.4.1-amd64-govt.2
+* v1.4.1-amd64-govt.1
+* v1.4.0
+* v1.4.0-amd64-govt.2
+* v1.4.0-amd64-govt.1
+* v1.3.2
+* v1.3.2-arm64-govt.1
+* v1.3.2-amd64-govt.3
+* v1.3.2-amd64-govt.2
+* v1.3.2-amd64-govt.1
+* v1.3.1
+* v1.3.1-arm64-govt.1
+* v1.3.1-amd64-govt.3
+* v1.3.1-amd64-govt.2
+* v1.3.1-amd64-govt.1
 
 ### Kubewarden
 * v1.20.1
