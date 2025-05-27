@@ -1,17 +1,19 @@
-# Carbide Release 0.1.1
+# Carbide Releases
 
 ## Release Notes
 
-### STIGATRON (0.3.0)
+### STIGATRON (0.4.1)
+* No release notes
 
 ### Airgapped-Docs (0.1.8)
 * Updated all docs
 
 ## Supported Versions
 
-This is a list of the supported products/versions of the Rancher Product Portfolio for each Carbide release.
+This is a list of the supported products and versions of the Rancher Product Portfolio for Carbide! Please reach out to support@ranchergovernment.com with any questions! Thank you.
 
 ### Rancher
+* v2.11.2
 * v2.11.1
 * v2.10.5
 * v2.10.4
@@ -80,11 +82,13 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v2.5.13
 
 ### RKE2
+* v1.32.5+rke2r1
 * v1.32.4+rke2r1
 * v1.32.3+rke2r1
 * v1.32.2+rke2r1
 * v1.32.1+rke2r1
 * v1.32.0+rke2r1
+* v1.31.9+rke2r1
 * v1.31.8+rke2r1
 * v1.31.7+rke2r1
 * v1.31.6+rke2r1
@@ -94,6 +98,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.31.2+rke2r1
 * v1.31.1+rke2r1
 * v1.31.0+rke2r1
+* v1.30.13+rke2r1
 * v1.30.12+rke2r1
 * v1.30.11+rke2r1
 * v1.30.10+rke2r1
@@ -148,7 +153,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.27.11+rke2r1
 * v1.27.10+rke2r1
 * v1.27.9+rke2r1
-* v1.27.8+rke2r1 
+* v1.27.8+rke2r1
 * v1.27.7+rke2r2
 * v1.27.7+rke2r1
 * v1.27.6+rke2r1
@@ -168,7 +173,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.26.8+rke2r1
 * v1.26.7+rke2r1
 * v1.26.6+rke2r1
-* v1.26.5+rke2r1  
+* v1.26.5+rke2r1
 * v1.26.4+rke2r1
 * v1.26.3+rke2r1
 * v1.26.2+rke2r1
@@ -183,7 +188,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.25.13+rke2r1
 * v1.25.12+rke2r1
 * v1.25.11+rke2r1
-* v1.25.10+rke2r1  
+* v1.25.10+rke2r1
 * v1.25.9+rke2r1
 * v1.25.8+rke2r1
 * v1.25.7+rke2r1
@@ -227,11 +232,13 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.22.12+rke2r1
 
 ### K3s
+* v1.32.5+k3s1
 * v1.32.4+k3s1
 * v1.32.3+k3s1
 * v1.32.2+k3s1
 * v1.32.1+k3s1
 * v1.32.0+k3s1
+* v1.31.9+k3s1
 * v1.31.8+k3s1
 * v1.31.7+k3s1
 * v1.31.6+k3s1
@@ -241,6 +248,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.31.2+k3s1
 * v1.31.1+k3s1
 * v1.31.0+k3s1
+* v1.30.13+k3s1
 * v1.30.12+k3s1
 * v1.30.11+k3s1
 * v1.30.10+k3s1
@@ -314,7 +322,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.26.8+k3s1
 * v1.26.7+k3s1
 * v1.26.6+k3s1
-* v1.26.5+k3s1 
+* v1.26.5+k3s1
 * v1.26.4+k3s1
 * v1.26.3+k3s1
 * v1.26.2+k3s1
@@ -371,6 +379,30 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.22.13+k3s1
 * v1.22.12+k3s1
 * v1.22.11+k3s2
+
+### Harvester
+* v1.4.3
+* v1.4.3-amd64-govt.1
+* v1.4.2
+* v1.4.2-amd64-govt.3
+* v1.4.2-amd64-govt.2
+* v1.4.2-amd64-govt.1
+* v1.4.1
+* v1.4.1-amd64-govt.2
+* v1.4.1-amd64-govt.1
+* v1.4.0
+* v1.4.0-amd64-govt.2
+* v1.4.0-amd64-govt.1
+* v1.3.2
+* v1.3.2-arm64-govt.1
+* v1.3.2-amd64-govt.3
+* v1.3.2-amd64-govt.2
+* v1.3.2-amd64-govt.1
+* v1.3.1
+* v1.3.1-arm64-govt.1
+* v1.3.1-amd64-govt.3
+* v1.3.1-amd64-govt.2
+* v1.3.1-amd64-govt.1
 
 ### Kubewarden
 * v1.20.1
@@ -487,6 +519,7 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * v1.0.1
 
 ### Neuvector
+* 5.4.4
 * 5.4.3
 * 5.4.2
 * 5.4.1
@@ -602,6 +635,9 @@ This is a list of the supported products/versions of the Rancher Product Portfol
 * 1.6.2
 
 ### STIGATRON
+* 0.4.1
+* 0.4.0
+* 0.3.0
 * 0.2.0
 * 0.1.1
 * 0.1.0
